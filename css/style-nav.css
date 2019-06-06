@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     position: fixed;
     margin: 0;
@@ -157,4 +162,14 @@ h2 {
     top: 0;
     left: 0;
     border: 4px #F2F3F7 solid;
+}
+
+@media only screen and (max-width: 500px) {
+    nav {
+        width: 100%;
+        position: relative;
+    }
+    main {
+        margin-left: 10px;
+    }
 }
