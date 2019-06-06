@@ -145,17 +145,18 @@ h2 {
 #profile div {
     position: absolute;
     border-radius: 50%;
-    margin-left: 25px;
-    margin-top: 9px;
+    /* margin-left: 25px;
+    margin-top: 9px; */
     background-color: #2E98F0;
     width: 140px;
     height: 140px;
-    top: 0;
-    left: 0;
+    top: 9px;
+    left: 25px;
     z-index: -5;
 }
 
 #profile img {
+    /* opacity: 0.5; */
     position: absolute;
     width: 140px;
     height: 140px;
@@ -164,12 +165,21 @@ h2 {
     border: 4px #F2F3F7 solid;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) and (min-width: 20px){
     nav {
         width: 100%;
-        position: relative;
+        position: static;
     }
     main {
-        margin-left: 10px;
+        position: static;
+        margin-left: 0px;
+    }
+   
+    #profile div {
+        z-index: 4;
+    }
+    
+    #profile img {
+        z-index: 5;
     }
 }
