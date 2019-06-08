@@ -176,4 +176,19 @@
 }
 
 
+@media only screen and (max-width: 500px) {
+    #experience {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: "Quicksand", Arial, sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.8;
+        color: rgba(0, 0, 0, 0.7);
+        height: 100vh;
+    }
 
+    #experience h2{
+        font-size: 24px;
+    }
+}
