@@ -179,16 +179,28 @@
 @media only screen and (max-width: 500px) {
     #experience {
         padding-left: 10px;
-        padding-right: 10px;
+        padding-right: 18px;
         font-family: "Quicksand", Arial, sans-serif;
         font-weight: 400;
-        font-size: 15px;
-        line-height: 1.8;
+        font-size: 12px;
+        line-height: 1;
         color: rgba(0, 0, 0, 0.7);
         height: 100vh;
     }
 
-    #experience h2{
-        font-size: 24px;
+    .timeline-label>h2>a {
+        font-size: 18px;
+    }
+
+    .timeline-label h4 {
+        font-size: 14px;
+    }
+
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
+        font-size: 14px;
+    }
+
+    #experience li{
+        margin: 0 0 5px 0;
     }
 }
