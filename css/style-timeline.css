@@ -14,7 +14,6 @@
     font-size: 15px;
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
-    height: 100vh;
 }
 
 .timeline-centered {
@@ -182,10 +181,10 @@
         padding-right: 18px;
         font-family: "Quicksand", Arial, sans-serif;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 1;
+        font-size: 14px;
+        line-height: 1.4;
         color: rgba(0, 0, 0, 0.7);
-        height: 100vh;
+        /* height: 100vh; */
     }
 
     .timeline-label>h2>a {
@@ -193,7 +192,7 @@
     }
 
     .timeline-label h4 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label h2 span {
