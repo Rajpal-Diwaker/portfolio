@@ -103,3 +103,10 @@
     transition: 0.3s;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 500px) {
+    #nav-projects {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

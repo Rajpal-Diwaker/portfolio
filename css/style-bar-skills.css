@@ -138,3 +138,10 @@
 .progress-bar.color-6 span {
     color: #4054b2;
 }
+
+@media only screen and (max-width: 500px) {
+    #skills-0{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
