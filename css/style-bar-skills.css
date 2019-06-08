@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-#skills-0{
+#skills-0 {
     padding-left: 70px;
     padding-right: 100px;
     font-family: "Quicksand", Arial, sans-serif;
@@ -139,9 +139,27 @@
     color: #4054b2;
 }
 
+.show {
+    display: none;
+}
+
 @media only screen and (max-width: 500px) {
-    #skills-0{
+    #skills-0 {
         padding-left: 10px;
         padding-right: 10px;
+    }
+    .percent-bars {
+        display: none;
+    }
+    .margin-expertise {
+        height: 20px;
+    }
+    .show {
+        display: block;
+    }
+    
+    .margin-card {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
