@@ -119,20 +119,18 @@ h2 {
     font-family: "Quicksand";
 }
 
-.social-links {
+.social-container {
+    width: 50%;
+    float: left;
     display: block;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
-.social-links>div {
-    transform: scale(1.5);
-}
-
-.social-links a {
+.social-container a {
     color: #2c98f0;
 }
 
-.social-links a:hover:after {
+.social-container a:hover:after {
     visibility: hidden;
 }
 
@@ -165,7 +163,21 @@ h2 {
     border: 4px #F2F3F7 solid;
 }
 
-@media only screen and (max-width: 500px) and (min-width: 20px){
+.social-container {
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-item {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 20px) {
     nav {
         width: 100%;
         position: static;
@@ -174,11 +186,9 @@ h2 {
         position: static;
         margin-left: 0px;
     }
-   
     #profile div {
         z-index: 4;
     }
-    
     #profile img {
         z-index: 5;
     }
