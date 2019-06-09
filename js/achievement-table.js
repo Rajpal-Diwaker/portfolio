@@ -59,7 +59,7 @@
     ]
 
     var tbody = document.getElementById('achv01').getElementsByTagName('tbody')
-    console.log(tbody)
+    // console.log(tbody)
     for (let i = 0; i < dataHiring.length; i++) {
         $(tbody).append(`
         <tr>
@@ -71,7 +71,7 @@
     }
 
     var tbody = document.getElementById('achv02').getElementsByTagName('tbody')
-    console.log(tbody)
+    // console.log(tbody)
     for (let i = 0; i < dataOnline.length; i++) {
         $(tbody).append(`
         <tr>
@@ -83,7 +83,7 @@
     }
 
     tbody = document.getElementById('achv03').getElementsByTagName('tbody')
-    console.log(tbody)
+    // console.log(tbody)
     for (let i = 0; i < dataCollege.length; i++) {
         $(tbody).append(`
         <tr>
