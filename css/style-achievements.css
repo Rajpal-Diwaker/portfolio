@@ -58,3 +58,11 @@
 .achv-title.active:after {
     content: '\e115';
 }
+
+@media only screen and (max-width: 500px) {
+    #achievements {
+        padding-left: 10px;
+        padding-right: 18px;
+    }
+    
+}

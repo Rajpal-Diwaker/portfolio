@@ -148,12 +148,15 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+    
     .percent-bars {
         display: none;
     }
+    
     .margin-expertise {
         height: 20px;
     }
+    
     .show {
         display: block;
     }
