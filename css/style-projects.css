@@ -1,6 +1,6 @@
 #nav-projects {
-    padding-left: 70px;
-    padding-right: 100px;
+    padding-left: 50px;
+    padding-right: 30px;
     font-family: "Quicksand", Arial, sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -108,5 +108,13 @@
     #nav-projects {
         padding-left: 10px;
         padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #nav-projects .cc{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 50px;
     }
 }

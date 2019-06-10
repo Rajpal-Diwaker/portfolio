@@ -1,11 +1,10 @@
 .tb {
     position: relative;
-    width: 362px;
-    height: 360px;
-    background: url('../images/proj1.jpg') no-repeat center;
+    /* width: 362px; */
+    height: 280px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 4px 0 rgba(136,144,195,.2), 0 5px 15px 0 rgba(37,44,97,.15);
+    box-shadow: 0 2px 4px 0 rgba(136, 144, 195, .2), 0 5px 15px 0 rgba(37, 44, 97, .15);
     transition: all .2s;
     /* font-family: 'Muli', 'Fresca', sans-serif; */
     /* font-family: 'PT Sans', sans-serif; */
@@ -13,46 +12,56 @@
     /* font-family: 'Josefin Sans', sans-serif; */
 }
 
-.tb:hover{
+.tb:hover {
     transition: all .2s;
-    box-shadow: 0 2px 4px 0 rgba(136,144,195,.5), 0 5px 15px 0 rgba(37,44,97,.35);
+    box-shadow: 0 2px 4px 0 rgba(136, 144, 195, .5), 0 5px 15px 0 rgba(37, 44, 97, .35);
     transform: translateY(-4px);
 }
 
 .tb .project-bkg-mask {
     position: absolute;
-    opacity: 0.7;
+    opacity: 0.5;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), #fcb900;
 }
 
-.tb .project-card {
+.dd {
+    /* border: solid blue 3px; */
     position: absolute;
     width: 100%;
     height: 100%;
+    /* justify-content: space-around; */
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.project-card {
+    /* border: solid red 3px; */
     display: flex;
+    height: 200px;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     text-align: center;
     font-weight: 600;
     color: white;
 }
 
 .card-icon {
-    margin-top: 0px;
     max-width: 64px;
     max-height: 64px;
-    margin-bottom: 20px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .card-title {
-    margin-top: 0px;
     font-size: 24px;
     line-height: 1.1;
     font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-top: 15px;
 }
 
 .card-tag {
@@ -80,9 +89,9 @@
 }
 
 .card-btn {
-    display: inline-block;
+    /* display: inline-block; */
+    /* border: solid red 3px; */
     padding: 4px 12px;
-    margin-top: 20px;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.4;
@@ -93,4 +102,10 @@
     border-radius: 4px;
     background: transparent !important;
     font-family: 'Muli', 'Fresca', sans-serif;
+    margin-top: 30px;
+}
+
+.btn-wrapper {
+    /* border: 3px solid black; */
+    height: 80px;
 }
