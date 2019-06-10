@@ -1,0 +1,86 @@
+.tb {
+    position: relative;
+    width: 362px;
+    /* border: 5px solid red; */
+    height: 360px;
+    background: url(https://preview.ibb.co/hwHycK/pexels_photo_235922.jpg) no-repeat center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* .tb .project-bkg-img {
+    /* position: absolute;
+    top: 0px;
+    left: 0px; */
+
+/*   height: 360px;
+    width: 362px;
+    background: url(https://preview.ibb.co/hwHycK/pexels_photo_235922.jpg) no-repeat center;
+    filter: blur(0px);
+} 
+*/
+
+.tb .project-bkg-mask {
+    position: absolute;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), #fcb900;
+}
+
+.tb .project-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.card-icon {
+    margin-top: 0px;
+    max-width: 64px;
+    max-height: 64px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.card-title {
+    font-size: 24px;
+    line-height: 1.1;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 600;
+}
+
+.card-tag {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    /* height: 40px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag-item {
+    margin-left: 3px;
+    margin-right: 3px;
+    margin-bottom: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFF;
+    font-size: 16px;
+    border-radius: 0.25em;
+    padding: .2em .6em .3em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.card-btn{
+    
+}
