@@ -14,10 +14,12 @@ body {
 }
 
 .swiper-slide {
-    background-position: center;
     background-size: cover;
-    width: 300px;
+    width: 196px;
     overflow: hidden;
-    height: 300px;
     background: #fff;
+    height: 350px;
+    background-position: center center;
+    background-size: cover;
+    background-image: url(images/ss/b.png);
 }

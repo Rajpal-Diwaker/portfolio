@@ -1,7 +1,7 @@
 var swiper = new Swiper('.swiper-container', {
     // effect: 'coverflow',
     spaceBetween: 200,
-    initialSlide:2,
+    initialSlide:0,
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: 'auto',
@@ -15,8 +15,8 @@ var swiper = new Swiper('.swiper-container', {
     pagination: {
         el: '.swiper-pagination',
     },
-    autoplay: {
-        delay: 1000,
-        disableOnInteraction:false
-      },
+    // autoplay: {
+    //     delay: 1000,
+    //     disableOnInteraction:false
+    //   },
 });
