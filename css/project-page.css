@@ -2,10 +2,8 @@ body {
     padding: 0px;
     margin: 0px;
 }
-.head{
-    /* border:solid 2px white; */
-}
 .project-container {
+    padding-top: 30px;
     width: 100%;
     height: 100vh;
     padding-left: 150px;
@@ -80,6 +78,13 @@ body {
     content: "\f3ab";
 }
 
+.mhr{
+    border-width: 6px;
+    margin: 24px 0!important;
+    width: 90px;
+    border-radius: 3px;
+}
+
 @media only screen and (max-width: 500px)  {
     .project-container {
         padding-left: 20px;
@@ -88,6 +93,7 @@ body {
     }   
 
     .links{
+        margin-top: 30px;
         display: flex;
         flex-direction: column;
         align-items: center;

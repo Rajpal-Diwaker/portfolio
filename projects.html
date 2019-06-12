@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/popper.js"></script>
+
     <link href="https://fonts.googleapis.com/css?family=Fresca&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Josefin+Sans|PT+Sans|Rubik&display=swap"
@@ -22,8 +25,6 @@
 <body>
     <div class="project-container"
         style="color:#ffffff;background-blend-mode:normal;background:linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(255,255,255,0.35) 100%), #eb144c">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, mollitia! Saepe ipsam, deleniti quaerat dicta
-            ullam, ut vitae amet neque provident aliquam, sequi repellat iste tempore. Beatae iure ullam unde!</p>
         <div class="head row">
             <div class="left col-lg-9 col-sm-12">
                 <div class="icon"><img src="images/logo1.jpeg"></div>
@@ -39,18 +40,19 @@
             </div>
             <div class="links col-lg-3 col-sm-12">
                 <div class="social-container">
-                    <div class="social-item">
-                        <a href="http://github.com/avcbcoder" target="_blank" aria-describedby="go-to-playstore">
+                    <div class="social-item pop">
+                        <a data-container="body" data-toggle="popover" data-placement="top"
+                            data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
                             <i class="fab fa-github" style="font-size: 150%;"></i>
                         </a>
                     </div>
-                    <div class="social-item">
+                    <div class="social-item pop">
                         <a href="https://www.linkedin.com/in/ankit-verma-03308215a/" class="social-link-item"
                             target="_blank">
                             <i class="fab fa-google-play" style="font-size: 150%;"></i>
                         </a>
                     </div>
-                    <div class="social-item">
+                    <div class="social-item pop">
                         <a class="social-link-item" target="_blank">
                             <i class="fas fa-comment" style="color:#fff;font-size: 150%;"></i>
                         </a>
@@ -58,13 +60,17 @@
                 </div>
             </div>
         </div>
-        <div class="line"></div>
+        <div class="line">
+            <hr class="mhr" style="border-color:#ffffff">
+        </div>
         <div class="slider"></div>
     </div>
     <div class="project-container"
         style="color:#ffffff;background-blend-mode:normal;background:linear-gradient(90deg, rgba(0,0,0,0.35) 0%, rgba(255,255,255,0.35) 100%), #4314eb">
 
     </div>
+
+    <script src="js/project-page.js"></script>
 </body>
 
 </html>
