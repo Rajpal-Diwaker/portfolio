@@ -216,12 +216,28 @@ body {
 } */
 
 .project-container p{
-    
+    margin-bottom: 0px;
 }
 
 .project-container .minor-detail{
-    margin-top: 0px;
-    border: 1px solid white;
+    margin-top: 10px;
+    /* border: 1px solid white; */
+}
+
+.details b{
+    font-weight: 300!important;
+    margin-bottom: 4px;
+    letter-spacing: .5px;
+    font-family: Lato,sans-serif;
+    line-height: 1.5;
+}
+
+.details{
+    font-weight: 200!important;
+    margin-bottom: 4px;
+    letter-spacing: .5px;
+    font-family: Lato,sans-serif;
+    line-height: 1.5;
 }
 
 @media only screen and (max-width: 500px) {
