@@ -10,20 +10,43 @@ body {
 .intro {
     width: 100%;
     height: 100vh;
-    background: url('../images/intro-bkg.jpg') no-repeat center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: 50%;
-    color: #fff;
+    position: relative;
 }
 
-.intro h1 {
+.intro-bkg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url('../images/intro-bkg.jpg') no-repeat center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.intro-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+    z-index: 1;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.35) 0%, rgba(255, 255, 255, 0.35) 100%), #000000;
+}
+
+.intro-content {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    color: #fff;
+    z-index: 2;
+}
+
+.intro-content h1,h2 {
     font-family: 'Lato', sans-serif;
     font-size: 54px;
     font-weight: 200;
 }
 
-.intro .title {
+.intro-content .title {
     margin-top: 10%;
     margin-left: 20%;
     /* border: 2px solid white; */
@@ -109,7 +132,6 @@ body {
 
 .social-container {
     display: flex;
-    border: solid 2px white;
     float: right;
     justify-content: space-around;
     width: 130px;
@@ -148,7 +170,6 @@ body {
 .social-w {
     margin-top: 200px;
     width: 100%;
-    border: solid 1px white;
     /* just to keep links in right */
     display: flex;
     justify-content: flex-end;
@@ -156,9 +177,7 @@ body {
 
 .intro-links {
     display: flex;
-    border: solid 2px white;
     justify-content: space-around;
-    /* width: 130px; */
     width: 24%;
 }
 
@@ -195,26 +214,42 @@ body {
     .btn-w {
         display: none;
     }
-
     .intro {
         height: 100vh;
     }
-    
-    .intro h1 {
-        font-size: 34px;
+    .intro-content h1 {
+        font-size: 54px;
         font-weight: 200;
     }
-    
-    .intro .title {
-        margin-top: 10%;
-        margin-left: 20%;
+
+    .intro-content h2 {
+        font-size: 40px;
+        font-weight: 200;
+    }
+    .intro-content .title {
+        margin-top: 15%;
+        margin-left: 10%;
         /* border: 2px solid white; */
     }
-
+    
     .social-w {
-        margin-top: 20px;
+        margin-top: 30%;
         /* just to keep links in right */
         display: flex;
         justify-content: center;
+    }
+    .intro-links {
+        display: flex;
+        justify-content: space-around;
+        /* width: 130px; */
+        width: 50%;
+    }
+    .intro-links a {
+        cursor: pointer;
+        color: #ffffff;
+    }
+    .intro-links a:hover {
+        font-size: 120%;
+        transition: 0.2s;
     }
 }
