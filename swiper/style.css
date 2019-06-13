@@ -14,12 +14,18 @@ body {
 }
 
 .swiper-slide {
-    background-size: cover;
-    width: 196px;
     overflow: hidden;
-    background: #fff;
+    background: transparent;
     height: 350px;
-    background-position: center center;
-    background-size: cover;
-    background-image: url(images/ss/b.png);
+    width: 400px;
+    /* just to center these things */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
