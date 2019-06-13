@@ -168,7 +168,7 @@ body {
 /* links on intro page */
 
 .social-w {
-    margin-top: 200px;
+    margin-top: 30px;
     width: 100%;
     /* just to keep links in right */
     display: flex;
@@ -189,6 +189,25 @@ body {
 .intro-links a:hover {
     font-size: 120%;
     transition: 0.2s;
+}
+
+
+/* scroll below to see more */
+
+.scroll{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+.scroll i{
+    margin-top: 8px;
+    font-size: 150%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -231,9 +250,9 @@ body {
         margin-left: 10%;
         /* border: 2px solid white; */
     }
-    
+
     .social-w {
-        margin-top: 30%;
+        margin-top: 15%;
         /* just to keep links in right */
         display: flex;
         justify-content: center;
