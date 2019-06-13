@@ -1,6 +1,6 @@
 var swiper = new Swiper('.swiper-container', {
     // effect: 'coverflow',
-    spaceBetween: 100,
+    spaceBetween: 50,
     initialSlide:1,
     grabCursor: true,
     centeredSlides: true,
@@ -14,9 +14,11 @@ var swiper = new Swiper('.swiper-container', {
     // },
     pagination: {
         el: '.swiper-pagination',
-    },
-    // autoplay: {
-    //     delay: 1000,
-    //     disableOnInteraction:false
-    //   },
+        type: 'bullets',
+        clickable:true
+      },
+    autoplay: {
+        delay: 1000,
+        disableOnInteraction:false
+      },
 });

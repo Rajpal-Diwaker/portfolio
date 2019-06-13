@@ -17,7 +17,7 @@ body {
     overflow: hidden;
     background: transparent;
     height: 350px;
-    width: 400px;
+    width: 300px;
     /* just to center these things */
     display: flex;
     flex-direction: column;
