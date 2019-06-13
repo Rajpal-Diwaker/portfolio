@@ -210,9 +210,18 @@ body {
     font-size: 150%;
 }
 
-.swiper-slide img{
+/* .swiper-slide img{
     border: 2px solid white;
     width: 200px;
+} */
+
+.project-container p{
+    
+}
+
+.project-container .minor-detail{
+    margin-top: 0px;
+    border: 1px solid white;
 }
 
 @media only screen and (max-width: 500px) {
@@ -276,4 +285,9 @@ body {
         font-size: 120%;
         transition: 0.2s;
     }
+
+    .scroll{
+        margin-top: 60px;
+    }
+    
 }
