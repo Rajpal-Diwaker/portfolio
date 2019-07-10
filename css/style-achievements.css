@@ -1,6 +1,15 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 #achievements {
+    margin-top: 50px;
     padding-left: 50px;
-    padding-right: 100px;
+    padding-right: 50px;
     font-family: "Quicksand", Arial, sans-serif;
     font-weight: 400;
     font-size: 15px;
@@ -59,10 +68,37 @@
     content: '\e115';
 }
 
+.summary-item {
+    display: flex;
+    align-items: center;
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+.summary-item img {
+    height: 30px;
+}
+
+.summary-item div {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
 @media only screen and (max-width: 500px) {
     #achievements {
         padding-left: 10px;
         padding-right: 18px;
     }
-    
+    .summary-item div {
+        margin-left: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 130%;
+    }
+    .summary-item{
+        margin-bottom: 5px;
+    }
+    .summary-item img {
+        height: 25px;
+    }
 }
