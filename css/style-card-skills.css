@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-#skills-0{
+#skills-0 {
     padding-left: 50px;
     padding-right: 100px;
     font-family: "Quicksand", Arial, sans-serif;
@@ -202,26 +202,28 @@
     border-color: #4054b2 transparent transparent transparent;
 }
 
-.desc .dh{
+.desc .dh {
     display: none;
 }
 
-@media only screen and (max-width: 500px) {
-    #skills-0{
+@media only screen and (max-width: 992px) {
+    #skills-0 {
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    .desc .dh{
+    .dev-icon-wrapper {
+        display: none;
+    }
+
+    .desc .dh {
         display: block;
     }
-    
-    .desc .dh div{
+    .desc .dh div {
         /* display: block; */
         text-align: left;
     }
-    
-    .tt{
+    .tt {
         display: inline;
         font-weight: 600;
     }

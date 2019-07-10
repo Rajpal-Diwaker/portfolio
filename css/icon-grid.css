@@ -1,7 +1,6 @@
 .grid-wrapper {
     width: 100%;
     height: auto;
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -9,5 +8,4 @@
 
 #skills-0 img {
     height: 58px;
-    /* border: 1px solid blue; */
 }
