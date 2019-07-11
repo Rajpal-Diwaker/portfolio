@@ -19,13 +19,13 @@
     position: relative;
 }
 
-.intro{
+.intro {
     position: absolute;
     margin-left: 70px;
     margin-top: 100px;
 }
 
-.intro>p{
+.intro>p {
     margin-top: 30px;
 }
 
@@ -79,8 +79,37 @@
     color: black;
 }
 
+.intro .link-wrapper {
+    margin-top: 30px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.link-wrapper img {
+    height: 30px;
+}
+
+.link-wrapper div {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 8px 8px 10px #b8a7a7;
+}
+
+.link-wrapper div:hover {
+    transform: translateY(-3px);
+    box-shadow: 16px 16px 10px #b8a7a7;
+    transition: all 0.5s;
+}
+
 @media only screen and (max-width: 500px) and (min-width: 20px) {
-    .intro{
+    .intro {
         margin-left: 20px;
         margin-top: 10px;
     }
