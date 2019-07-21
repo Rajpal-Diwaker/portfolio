@@ -240,6 +240,21 @@ body {
     line-height: 1.5;
 }
 
+.read-more{
+    cursor:pointer;
+}
+
+.read-more:hover{
+    cursor:pointer;
+    transform: scaleX(1.2);
+    transform: scaleY(1.2);
+    transition-duration: 1s;
+}
+
+.more-details{
+    display:none;
+}
+
 @media only screen and (max-width: 500px) {
     .project-container {
         padding-left: 20px;

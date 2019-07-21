@@ -16,9 +16,13 @@ tr:nth-of-type(odd) {
 }
 
 tr:hover{
-	background-color: #e1e4e8;
+	/* background-color: #e1e4e8; */
 	border:1px solid black;
 	cursor: pointer;
+}
+
+tr th:hover{
+	cursor: auto;
 }
 
 th {
